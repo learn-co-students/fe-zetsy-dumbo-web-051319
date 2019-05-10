@@ -43,3 +43,20 @@ header a {
 header a:hover {
 	color: #666;
 }
+
+#press img {
+    border: 5px #ccc solid;
+    padding: 1px;
+}
+
+#press img:hover {
+	border: 5px #555 solid;
+}
+	
+#footer {
+    text-align: right;
+}
+
+.small {
+    font-size: 0.8em;
+}
