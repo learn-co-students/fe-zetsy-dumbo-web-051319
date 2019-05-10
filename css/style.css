@@ -38,15 +38,16 @@ header:hover{
   border-width: 5px;
 	border-color: rgb(153, 173, 166);
 	position:relative;
-	top: -48px;
+	top: 0px;
 }
+/* }
 #fontS{
 	font-size: 32px;
 	color: rgb(112, 127, 122);
 	position:relative;
 	top: -20px;
-	font-weight: bold;
-}
+	font-weight: bold; */
+
 #paragraph{
 	color: rgb(85,85,85);
 	position:relative;
