@@ -7,14 +7,48 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
+
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
 }
 
 /* Write all remaining styles here */
+.wrapper header{
+	font-size: 5em;
+	color: rgb(153, 173, 166);
+	font-weight: bold;
+}
+header:hover{
+	color: rgb(112, 127, 122);
+}
+.wrapper h4{
+	color: rgba(153, 173, 166, 0.5);
+	position: relative;
+	top: -30px;
+}
+.wrapper img {
+  border-style: solid;
+  border-width: 5px;
+	border-color: rgb(153, 173, 166);
+	position:relative;
+	top: -48px;
+}
+#fontS{
+	font-size: 32px;
+	color: rgb(112, 127, 122);
+	position:relative;
+	top: -20px;
+	font-weight: bold;
+}
+#paragraph{
+	color: rgb(85,85,85);
+	position:relative;
+	top: -10px;
+}
