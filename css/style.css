@@ -5,16 +5,56 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	height:100%;
+	min-height: 100%;
+	width: 100%;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Baskerville','Times New Roman', serif;
+	background: #F2EBE9;
 }
 
-.wrapper {
+header {
+margin: 0 auto;
+color: #98ADA6;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+
+a{
+margin: 0 auto;
+color: #98ADA6;
+text-decoration: none;
+}
+
+
+h1, h2{
+		color: #98ADA6
+}
+
+img {
+	border: 5px solid;
+	border-color: #98ADA6;
+}
+
+.icons{
+	border-color: #e5e5e5;
+}
+
+.icons:hover{
+	border-color: #465759;
+}
+
+footer{
+	font-size: 80%;
+	float: right;
+	margin: 20px;
+}
+/* Write all remaining styles here */
+.main-page{
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
-}
+	background: #FFFF;
+	padding: 50px;
 
-/* Write all remaining styles here */
+}
